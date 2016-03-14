@@ -4,7 +4,7 @@
 }
 
 body{
-	font-family: tahoma;
+	font-family: Tahoma, sans-serif;
 	background: #f9f9f9;
 }
 
@@ -116,7 +116,7 @@ body{
 
 .fmenu .copyright{
 	float: right;
-	padding-right: 20;
+	padding-right: 20px;
 }
 
 .fmenu a{
