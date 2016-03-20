@@ -1,0 +1,26 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+}
+
+.list{
+	list-style: none;
+	/*list-style-image: url(../img/flag.png) no-repeat 0 4px;*/
+	background: url('../img/flag.png') no-repeat 0 4px; /* Параметры фона */
+	padding-left: 50px;
+}
+
+.list1 li{
+	list-style: none;
+}
+
+.list1 li a{
+	text-decoration: none;
+	content:url('../img/flag.png');
+	display: inline-block;
+	padding-right: 5px;
+}
+
+img{
+	border: 1px solid black;
+	}

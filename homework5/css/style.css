@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneuecyr-thin-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-thin-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaneuecyr-thin-webfont.svg#helveticaneuecyrthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	font-family: "Helvetica Neue",Arial;
+}
+.cover{
+	position: relative;
+	margin: 0 auto;
+	width: 1215px;
+}
+.header-menu {
+	/*padding-left: 380px;*/
+	height: 37px;
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top,  #1e5799 0%, #074f8d 0%, #075190 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #1e5799 0%,#074f8d 0%,#075190 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #1e5799 0%,#074f8d 0%,#075190 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.rightmenu{
+	padding-right: 20px;
+	height: inherit;
+	float: right;
+}
+.leftmenu{
+	padding-left: 349px;
+	height: inherit;
+	float: left;
+}
+
+.header-menu li{
+	float: left;
+	width: inherit;
+	padding: 8.8px 15px;
+	list-style: none;
+}
+.header-menu li a{
+	text-decoration: none;
+}
+.header-menu li:nth-child(5){
+	border-right: 2px solid #60b5ed ;
+}
+/*.header-menu li:nth-child(6){
+	padding-top: 6px;
+	padding-right: 0;
+	padding-bottom: 2px;
+}*/
+
+/*.header-menu li:nth-child(7){
+	padding-left: 8px;
+}*/
+
+.leftmenu li a{
+	color: #60b5ed;
+}
+.rightmenu li a{
+	color: white;
+	/*list-style-image: url('../img/flag1.png');*/
+}
+.rightmenu span{
+	text-decoration: underline;
+}
+
+.flag{
+	/*text-align: center;*/
+	position: relative;
+}
+
+.flag img{
+	position: absolute;
+	/*padding: 0;*/
+	/*margin: 0;*/
+	/*vertical-align: middle;*/
+	/*margin-right: 15px;*/
+	/*max-height: 20px;*/
+}
+
+.flag a {
+	padding-left: 36px;
+}
+
+/*.flag:before{
+	content: url('../img/flag.png');
+	padding-right: 10px;
+}*/
+	.leftmenu :hover{
+	background-color: #4eabda;
+	color: white;
+}
+.rightmenu :hover{
+background: #7db9e8; /* Old browsers */
+background: -moz-linear-gradient(top,  #7db9e8 0%, #7db9e8 0%, #4daada 0%, #2e7ac4 100%, #2e7ac4 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #7db9e8 0%,#7db9e8 0%,#4daada 0%,#2e7ac4 100%,#2e7ac4 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #7db9e8 0%,#7db9e8 0%,#4daada 0%,#2e7ac4 100%,#2e7ac4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.img{
+	height: 1028px;
+	background-image: url('../img/photo.jpg');
+}
+.box{
+	position: absolute;
+	top: 250px;
+	left: 350px;
+	width: 560px;
+	height: 612px;
+	background:rgba(0,0,0,0.7);
+	z-index: 1;
+}
+.title {
+	height: 60px;
+	width: inherit;
+	text-align: center;
+	padding-top: 25px;
+	color: #ffffff;
+	font-size: 24px;
+	border-bottom:3px solid #bec7b4;
+}
+.buttoncover{
+	padding-top: 40px;
+	text-align: center;
+	/*color: white;*/
+}
+.button{
+    padding-top: 0px;
+    height: 35px;
+		border: 0;
+		border-radius: 5px;
+}
+
+.ou{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	color: #666666;
+}
+.ou hr {
+	width: 116px;
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #000000;
+  display: inline-block;
+  margin: 3px 3px;
+}
+.forma{
+	font-family: inherit;
+}
+.inputinfo{
+	height: 35px;
+	width: 273px;
+	background-color: black;
+	border: 0;
+	border-bottom: 1px solid #666666;
+	color: white;
+	font-size: 14px;
+	margin-top: 15px;
+	padding-left: 20px;
+	font-family: inherit;
+}
+.inputinfo:hover{
+	background-color: #1b5288;
+	-webkit-box-shadow: 0px 0px 10px 5px #4c89b0;
+-moz-box-shadow:    0px 0px 10px 5px #4c89b0;
+box-shadow:         0px 0px 10px 5px #4c89b0;
+}
+.inputcheck{
+	margin-top: 20px;
+	color: white;
+	font-size: 14px;
+}
+.createbutton{
+	margin: 10px;
+	width: 150px;
+	height: 35px;
+	border: 0;
+	border-radius: 5px;
+	color: white;
+	font-size: 14px;
+	font-family: inherit;
+background: #7db9e8; /* Old browsers */
+background: -moz-linear-gradient(top,  #7db9e8 0%, #7db9e8 0%, #7db9e8 0%, #2e7ac4 100%, #2e7ac4 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #7db9e8 0%,#7db9e8 0%,#7db9e8 0%,#2e7ac4 100%,#2e7ac4 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #7db9e8 0%,#7db9e8 0%,#7db9e8 0%,#2e7ac4 100%,#2e7ac4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.forma p{
+	font-size: 11px;
+	color: white;
+}
