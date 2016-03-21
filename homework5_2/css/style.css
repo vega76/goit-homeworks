@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+}
+div{
+  margin: 0 auto;
+  width: 505px;
+  height: 540px;
+  background-color: white;
+}
+table{
+  width: inherit;
+  height: inherit;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 10px solid black;
+
+}
+td{
+  border: 10px solid black;
+  }
+.cell16{
+  background-color: #fff161;
+}
+.cell22{
+  background-color: #ff613f;
+}
+.cell26{
+  background-color: #fff161;
+}
+.cell62 {
+  background-color: #2a2a2a;
+}
+.cell63{
+  background-color: #2a2a2a;
+}
+.cell71{
+  background-color: #fff161;
+}
+.cell72{
+  background-color: #2a2a2a;
+}
+.cell73{
+  background-color: #2a2a2a;
+}
+.cell84{
+  background-color: #2a2a2a;
+}
+.cell76{
+  background-color: #135090;
+}
