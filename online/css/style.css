@@ -1,0 +1,30 @@
+.cover{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  flex-wrap:   nowrap;
+  background: grey;
+  flex-direction:  row;
+}
+.flexbox{
+  max-width: 1200px;
+  margin: 0 15px;
+  order: 0;
+}
+.red{
+  background: red;
+  align-self: baseline;
+  flex-basis:  ;
+}
+.green{
+  background: green;
+  align-self: center;
+  order: -1;
+}
+.blue{
+  background: blue;
+  align-self: center;
+}
+.yellow{
+  background-color: yellow;
+}
