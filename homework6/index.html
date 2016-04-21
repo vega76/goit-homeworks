@@ -3,22 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>homework6</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <link rel="stylesheet" href="css/style.css">
   <body>
     <div class="cover">
-      <div class="wraper">
+      <div class="wrapper">
       <header>
         <div class="fone">
-          <img src="img/fone.png" alt="fone" />
           (044)123-45-67 (044)567-89-10
         </div>
-        <form class="login" action="">
-          <input type="login" name="login" placeholder="логин">
-          <input type="password" name="password" placeholder="пароль">
-          <input type="button" name="eneter" value="вход">
-          <input type="button" name="registrash" value="регистрация">
-          <input type="button" name="foget" value="забыли пароль?">
+        <form class="login">
+          <input class="login1" type="text" name="login" placeholder="логин">
+          <input class="password" type="password" name="password" placeholder="пароль">
+            <a class="vxod" href="#">вход&nbsp;|</a>
+            <a class="reg" href="#">регистрация</a>
+            <a class="foget" href="#">забыли пароль?</a>
         </form>
         <div class="nav">
           <a href="#"><img src="img/home.png" alt="home" /></a>
@@ -30,15 +29,14 @@
         </div>
         <div class="header-menu clearfix">
           <ul>
-            <li><a href="#">О КОМПАНИ</a></li>
-            <li><a href="#">ОПЛАТА</a></li>
-            <li><a href="#">ДОСТАВКА</a></li>
-            <li><a href="#">СТАТЬИ</a></li>
-            <li><a href="#">КОНТАКЫ</a></li>
-            <li><a href="#">О КОМПАНИ</a></li>
+            <li><a href="#">&emsp;&nbsp;&nbsp;О КОМПАНИ&emsp;</a></li>
+            <li><a href="#">&emsp;&nbsp;ОПЛАТА&emsp;</a></li>
+            <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;ДОСТАВКА&emsp;</a></li>
+            <li><a href="#">&nbsp;&nbsp;&nbsp;СТАТЬИ&emsp;</a></li>
+            <li><a href="#">&nbsp;&nbsp;&nbsp;КОНТАКТЫ&emsp;</a></li>
           </ul>
           <div class="basket">
-            <a href="#"><img src="img/basket.png" alt="" />товаров:<span>0</span>на сумму:<span>0.00 грн.</span></a>
+            <a href="#">товаров:<span class="zero">0</span>на сумму:<span class="zero-grn">0.00 грн.</span></a>
           </div>
         </div>
         <!-- <form class="select1" action="">
@@ -70,118 +68,127 @@
       </header>
       <div class="content clearfix">
 
-      <aside class="left-sidebar">
-        <a href="#"><img src="img/brend.png" alt="" />КАТАЛОГ ПРОДУКЦИИ:</a>
+      <aside class="left-sidebar clearfix">
+        <div class="brend">
+          <a href="#">КАТАЛОГ ПРОДУКЦИИ:</a>
+        </div>
         <ul class="left-list">
-          <li><a href="#"><img src="img/marker.png" alt="" />ШИНЫ</a></li>
-          <ul>
+          <li><a href="#">ШИНЫ</a>
+          <ul class="submenu">
             <li><a href="#">Наименование 1</a></li>
             <li><a href="#">Наименование 2</a></li>
             <li><a href="#">Наименование 3</a></li>
             <li><a href="#">Наименование 4</a></li>
           </ul>
-          <li><a href="#"><img src="img/marker.png" alt="" />ДИСКИ</a></li>
-          <ul>
+          </li>
+          <li><a href="#">ДИСКИ</a>
+          <ul class="submenu">
             <li><a href="#">Наименование 1</a></li>
             <li><a href="#">Наименование 2</a></li>
             <li><a href="#">Наименование 3</a></li>
             <li><a href="#">Наименование 4</a></li>
           </ul>
-          <li><a href="#"><img src="img/marker.png" alt="" />БОЛТЫ</a></li>
-          <ul>
+          </li>
+          <li><a href="#">БОЛТЫ</a>
+          <ul class="submenu">
             <li><a href="#">Наименование 1</a></li>
             <li><a href="#">Наименование 2</a></li>
             <li><a href="#">Наименование 3</a></li>
             <li><a href="#">Наименование 4</a></li>
           </ul>
-
+          </li>
         </ul>
 
       </aside>
       <main>
         <figure>
-          <figcaption class="name">Goodyear</figcaption>
-          <figcaption class="diskrip">Ultra Grip Extreme</figcaption>
-          <p><a href="#"><img src="img/01.jpg" alt="" /></a></p>
-          <figcaption class="price">90.00 грн.</figcaption>
+          <div class="name">Goodyear</div>
+          <div class="des">Ultra Grip Extreme</div>
+          <a href="#"><img src="img/01.jpg" alt="" /></a>
+          <figcaption class="price">90.00 <span>грн.</span></figcaption>
         </figure>
         <figure>
-          <figcaption class="name">Nokian</figcaption>
-          <figcaption class="diskrip">Hakkapeliitta R</figcaption>
+          <div class="name">Nokian</div>
+          <div class="des">Hakkapeliitta R</div>
           <p><a href="#"><img src="img/02.jpg" alt="" /></a></p>
-          <figcaption class="price">115.00 грн.</figcaption>
+          <figcaption class="price">115.00 <span>грн.</span></figcaption>
         </figure>
         <figure>
-          <figcaption class="name">Hankook</figcaption>
-          <figcaption class="diskrip">K 708 155/65 R14</figcaption>
+          <div class="name">Hankook</div>
+          <div class="des">K 708 155/65 R14</div>
           <p><a href="#"><img src="img/03.jpg" alt="" /></a></p>
-          <figcaption class="price">393.00 грн.</figcaption>
+          <figcaption class="price">393.00 <span>грн.</span></figcaption>
         </figure>
         <figure>
-          <figcaption class="name">Goodyear</figcaption>
-          <figcaption class="diskrip">Ultra Grip Extreme</figcaption>
+          <div class="name">Goodyear</div>
+          <div class="des">Ultra Grip Extreme</div>
           <p><a href="#"><img src="img/03.jpg" alt="" /></a></p>
-          <figcaption class="price">90.00 грн.</figcaption>
+          <figcaption class="price">90.00 <span>грн.</span></figcaption>
         </figure>
         <figure>
-          <figcaption class="name">Nokian</figcaption>
-          <figcaption class="diskrip">Hakkapeliitta R</figcaption>
+          <div class="name">Nokian</div>
+          <div class="des">Hakkapeliitta R</div>
           <p><a href="#"><img src="img/03.jpg" alt="" /></a></p>
-          <figcaption class="price">115.00 грн.</figcaption>
+          <figcaption class="price">115.00 <span>грн.</span></figcaption>
         </figure>
         <figure>
-          <figcaption class="name">Hankook</figcaption>
-          <figcaption class="diskrip">K 708 155/65 R14</figcaption>
+          <div class="name">Hankook</div>
+          <div class="des">K 708 155/65 R14</div>
           <p><a href="#"><img src="img/03.jpg" alt="" /></a></p>
-          <figcaption class="price">393.00 грн.</figcaption>
+          <figcaption class="price">393.00 <span>грн.</span></figcaption>
         </figure>
         <figure>
-          <figcaption class="name">Goodyear</figcaption>
-          <figcaption class="diskrip">Ultra Grip Extreme</figcaption>
+          <div class="name">Goodyear</div>
+          <div class="des">Ultra Grip Extreme</div>
           <p><a href="#"><img src="img/03.jpg" alt="" /></a></p>
-          <figcaption class="price">90.00 грн.</figcaption>
+          <figcaption class="price">90.00 <span>грн.</span></figcaption>
         </figure>
         <figure>
-          <figcaption class="name">Nokian</figcaption>
-          <figcaption class="diskrip">Hakkapeliitta R</figcaption>
+          <div class="name">Nokian</div>
+          <div class="des">Hakkapeliitta R</div>
           <p><a href="#"><img src="img/03.jpg" alt="" /></a></p>
-          <figcaption class="price">115.00 грн.</figcaption>
+          <figcaption class="price">115.00 <span>грн.</span></figcaption>
         </figure>
         <figure>
-          <figcaption class="name">Hankook</figcaption>
-          <figcaption class="diskrip">K 708 155/65 R14</figcaption>
+          <div class="name">Hankook</div>
+          <div class="des">K 708 155/65 R14</div>
           <p><a href="#"><img src="img/03.jpg" alt="" /></a></p>
-          <figcaption class="price">393.00 грн.</figcaption>
+          <figcaption class="price">393.00 <span>грн.</span></figcaption>
         </figure>
 
       </main>
-      <aside class="right-sidebar">
-        <a href="#"><img src="img/brend.png" alt="" />БРЕНДЫ:</a>
-        <ul>
-          <li><a href="#"><img src="img/marker.png" alt="" />ШИНЫ</a></li>
-                 <input type="checkbox" id="option1">
-                  <label for="option1">Бренд1</label><br>
-                  <input type="checkbox" id="option2">
-                  <label for="option2">Бренд1</label><br>
-                  <input type="checkbox" id="option3">
-                  <label for="option3">Бренд1</label>
-          <li><a href="#"><img src="img/marker.png" alt="" />ДИСКИ</a></li>
-          <input type="checkbox" id="option1">
-           <label for="option1">Бренд1</label><br>
-           <input type="checkbox" id="option2">
-           <label for="option2">Бренд1</label><br>
-           <input type="checkbox" id="option3">
-           <label for="option3">Бренд1</label>
+      <aside class="right-sidebar clearfix">
+        <div class="brend2">
+          <a href="#">БРЕНДЫ:</a>
+        </div>
+        <ul class="right-list">
+          <li><a href="#">ШИНЫ</a>
+              <div class="chekbox clearfix">
+                <input type="checkbox" id="option1">
+                <label for="option1">Бренд 1</label><br>
+                <input type="checkbox" id="option2">
+                <label for="option2">Бренд 2</label><br>
+                <input type="checkbox" id="option3">
+                <label for="option3">Бренд 3</label>
+              </div>
+                </li>
+          <li><a href="#">ДИСКИ</a>
+          <div class="chekbox clearfix">
+            <input type="checkbox" id="option4">
+           <label for="option4">Бренд 1</label><br>
+           <input type="checkbox" id="option5">
+           <label for="option5">Бренд 2</label><br>
+           <input type="checkbox" id="option6">
+           <label for="option6">Бренд 3</label>
+         </div>
+           </li>
         </ul>
-        <p><input type="submit" value="Выбрать"></p>
+        <input class="submit" type="submit" value="Выбрать">
       </aside>
-
-    </div>
-
       <footer>
-        <div class="footer-baners">
-          <a href="#"><img src="img/ban1.png" alt="" /></a>
-          <a href="#"><img src="img/ban2.png" alt="" /></a>
+        <div class="footer-baners clearfix">
+          <a href="#"><img src="img/ban1.png" alt=""  /></a>
+          <a href="#"><img src="img/ban2.png" alt=""  /></a>
           <a href="#"><img src="img/ban3.png" alt="" /></a>
           <a href="#"><img src="img/ban4.png" alt="" /></a>
           <a href="#"><img src="img/ban5.png" alt="" /></a>
@@ -189,22 +196,23 @@
           <a href="#"><img src="img/ban7.png" alt="" /></a>
           <a href="#"><img src="img/ban8.png" alt="" /></a>
         </div>
-        <div class="footer-menu">
+        <div class="footer-menu clearfix">
           <ul>
             <li><a href="#">О компании</a></li>
-            <li><a href="#">Доставка</a></li>
-            <li><a href="#">Статьи</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a href="#">|&emsp;Доставка</a></li>
+            <li><a href="#">|&emsp;Статьи</a></li>
+            <li><a href="#">|&emsp;Контакты</a></li>
           </ul>
-          <span>
-             Создание сайта © Global Vision
-          </span>
-
+          <br>
+          <div class="copyright">
+            Создание сайта © Global Vision
+          </div>
         </div>
-
       </footer>
       </div>
     </div>
+
+  </div>
 
   </body>
 </html>

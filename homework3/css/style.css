@@ -82,6 +82,7 @@ body{
 }
 
 .vmenu li:hover{
+	padding-left: 35px;
 	font-weight: bolder;
 	background: #f9f9f9;
 }
